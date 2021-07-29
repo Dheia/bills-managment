@@ -1,0 +1,6 @@
+scopes:
+    type:
+        label: Type
+        modelClass: Layerok\Bills\Models\Types
+        conditions: type_id in (:filtered)
+        nameFrom: name

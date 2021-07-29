@@ -1,0 +1,10 @@
+name: Types
+form: $/layerok/bills/models/types/fields.yaml
+modelClass: Layerok\Bills\Models\Types
+defaultRedirect: layerok/bills/types
+create:
+    redirect: 'layerok/bills/types/update/:id'
+    redirectClose: layerok/bills/types
+update:
+    redirect: layerok/bills/types
+    redirectClose: layerok/bills/types

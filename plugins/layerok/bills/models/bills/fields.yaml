@@ -1,0 +1,55 @@
+fields:
+    type:
+        label: 'Тип услуги'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    rate:
+        label: Тариф
+        span: right
+        type: text
+    previous_value:
+        label: 'Предыдущие значение'
+        span: left
+        type: text
+    current_value:
+        label: 'Текущее значение'
+        span: right
+        type: text
+    delta:
+        label: Разница
+        span: auto
+        type: text
+        readOnly: true
+        dependsOn:
+            - previous_value
+            - current_value
+    total:
+        label: 'Сумма к сплате'
+        span: auto
+        type: text
+        readOnly: true
+        dependsOn:
+            - rate
+            - delta
+    period_from:
+        label: 'Период оплаты от'
+        mode: datetime
+        span: auto
+        type: datepicker
+    period_to:
+        label: 'Период оплаты до'
+        mode: datetime
+        span: auto
+        type: datepicker
+    photo:
+        label: 'Фото чека'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+

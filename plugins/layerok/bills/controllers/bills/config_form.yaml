@@ -1,0 +1,10 @@
+name: Bills
+form: $/layerok/bills/models/bills/fields.yaml
+modelClass: Layerok\Bills\Models\Bills
+defaultRedirect: layerok/bills/bills
+create:
+    redirect: 'layerok/bills/bills/update/:id'
+    redirectClose: layerok/bills/bills
+update:
+    redirect: layerok/bills/bills
+    redirectClose: layerok/bills/bills

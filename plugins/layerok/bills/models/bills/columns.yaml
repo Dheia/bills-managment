@@ -1,0 +1,32 @@
+columns:
+    id:
+        label: '#'
+        type: number
+        searchable: true
+        sortable: true
+    type_id:
+        label: Тип
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: type
+        default: general
+    total:
+        label: Сумма к оплате
+        type: text
+        searchable: true
+        sortable: true
+    rate:
+        label: Тариф
+        type: text
+        searchable: true
+        sortable: true
+    period_from:
+        label: Период от
+        type: datetime
+        format: M d, Y
+    period_to:
+        label: Период до
+        type: datetime
+        format: M d, Y

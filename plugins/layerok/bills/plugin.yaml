@@ -1,0 +1,20 @@
+plugin:
+    name: layerok.bills
+    description: 'Описание плагина'
+    author: 'Rudomanenko Vladimir'
+    icon: icon
+    homepage: ''
+navigation:
+    layerok-bills:
+        label: Счета
+        url: layerok/bills/types
+        icon: icon-money
+        sideMenu:
+            service-types:
+                label: 'Типы услуг'
+                url: layerok/bills/types
+                icon: icon-lightbulb-o
+            bills-records:
+                label: 'Архив счетов'
+                url: layerok/bills/bills
+                icon: icon-archive

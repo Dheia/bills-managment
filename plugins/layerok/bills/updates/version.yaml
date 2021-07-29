@@ -1,0 +1,28 @@
+1.0.1: 'First version of Bills'
+1.0.2:
+    - 'Created table layerok_bills_types'
+    - builder_table_create_layerok_bills_types.php
+1.0.3:
+    - 'Created table layerok_bills_records'
+    - builder_table_create_layerok_bills_records.php
+1.0.4:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records.php
+1.0.5:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records_2.php
+1.0.6:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records_3.php
+1.0.7:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records_4.php
+1.0.8:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records_5.php
+1.0.9:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records_6.php
+1.0.10:
+    - 'Updated table layerok_bills_records'
+    - builder_table_update_layerok_bills_records_7.php
